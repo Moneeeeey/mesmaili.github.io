@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Moneeey Portfolio</title>
+        <link rel="icon" href="img/LogoAwhite.png" type="image/x-icon">
+        <meta name="description" content="Mani Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body class="bodycolor">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="colortoggle"> </div>
+
+        <header>
+            
+            <nav>
+                <div>
+                    <a href="index.html"> 
+                        <div id="HomeContact"> HOME</div>
+                    </a>
+                    <a href="about.html"> 
+                        <div id="AboutContact">ABOUT</div>
+                    </a>
+                    <a href="contact.html"> 
+                        <div id="ContactContact">CONTACT</div>
+                    </a>
+                    <a href="https://www.behance.net/maniesmaili/resume" target="_blank">
+                        <div id="ResumeContact">RESUME</div>
+                    </a>
+                </div>
+
+                     <a href="index.html"> 
+                         <img id="imgabout" src="img/LogoANew.png" />
+                     </a>
+
+
+
+             </nav>
+        </header>
+
+        <main>
+
+            <div>
+                <div id="headercontact">Ways to Contact</div>
+            </div>
+
+            <div style="width: 40rem; height: auto; margin-left: 20rem;  "> 
+                <a href="https://www.instagram.com/itsmmani/" target="_blank"> 
+                    <div id="instabox" >Instagram</div>
+                </a>
+                <a href="https://www.behance.net/maniesmaili" target="_blank"> 
+                    <div id="behancebox" >Behance</div>
+                </a>
+                <a href="https://www.instagram.com/itsmmani/" target="_blank"> 
+                    <div id="linkbox">LinkedIn</div>
+                </a>
+                <a href="mailto:mani.esmaili85@gmail.com" target="_blank"> 
+                <div id="gmailbox" >Gmail</div>
+                </a>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="footerbox">
+                <div style=" margin-top: 25rem; " id="footertext">  Copyright © 2023 Moneeey. All Rights Reserved. </div>
+            </div>
+
+        </footer>
+
+        <script>
+
+            var colortoggle = document.getElementById("colortoggle")
+            
+            colortoggle.onclick = function() {
+                document.body.classList.toggle("dark-theme");
+                if( document.body.classList.contains("dark-theme")) {
+                    imgabout.src = "img/LogoAWhite.png"
+                }else{
+                    imgabout.src = "img/LogoANew.png" 
+                }
+            }
+        </script>
+        
+    </body>
+
+</html>

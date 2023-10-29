@@ -1,0 +1,546 @@
+html {
+
+    font-size: 16px;
+}
+
+:root{
+/*
+ --primary-color:#EBE8E2; 
+--secondary-color:#070707; 
+ --primary-image: background-image: url(img/img/LogoANew.png);
+
+*/
+    --primary-color:#EBE8E2; 
+    --secondary-color:#070707; 
+}
+.dark-theme{
+    --primary-color:#070707; 
+    --secondary-color:#EBE8E2; 
+}
+
+
+body {
+    max-width: 90rem;
+    max-height: 64rem;
+    background-color: var(--primary-color);
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+header {
+
+
+}
+
+nav {
+    display: flex;
+
+}
+
+main {
+
+
+}
+
+footer{
+    
+    width: 90rem;
+    height: 12rem;
+    color: var(--secondary-color); 
+    font-size: 15px; 
+    font-family: Helvetica; 
+    font-weight: 300;
+    
+
+}
+
+.footerbox {
+    width: 90rem;
+    height: 100%;
+    padding-top: 4.25rem; 
+    justify-content: center; 
+    align-items: center; 
+   
+}
+#footertext{
+   text-align: center;
+   
+}
+#headerabout{
+    width: 29rem;
+    height: 6rem;
+    left: 18rem; 
+    top: 20rem; 
+    color: #E67195;
+    position: absolute; 
+    font-size: 3.75rem;
+    font-family: Helvetica Neue; 
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.28125rem;
+    display: inline;
+    
+}
+#textabout{
+    width: 53vw;
+    height: 16.1vw;
+    left: 20rem;
+    top: 26rem;
+    position: absolute;
+    text-align: left;
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: Helvetica;
+    word-wrap: break-word;
+}
+#imgabout{
+    width: 8.5rem;
+    height: auto;
+    grid-column: 2 / 3;
+   
+   
+    
+}
+#imgabout:hover{
+    opacity: 80%;
+    
+}
+
+#aboutabout{
+    width: 13rem; 
+    height: 2rem;
+    left: 70rem;
+    top: 4.2rem; 
+    position: absolute;
+    color: #DE3D6A;
+    font-size: 2rem;
+    font-family: Helvetica;
+    font-weight: 700;
+   
+}
+#HomeAbout{
+
+    width: 13rem; 
+    height: 2rem; 
+    left: 70rem; 
+    top: 2rem; 
+    position: absolute;
+    color: var(--secondary-color);
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+   
+
+}
+#ContactAbout{
+    width: 13rem;
+    height: 2rem; 
+    left: 70rem; 
+    top: 6.5rem; 
+    position: absolute; 
+    color: var(--secondary-color); 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700;
+    
+}
+#ResumeAbout{
+    width: 13rem; 
+    height: 2rem; 
+    left: 70rem; 
+    top: 8.7rem; 
+    position: absolute; 
+    color: var(--secondary-color); 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+   
+}
+#HomeAbout:hover{
+    color: #E67195;
+}
+#aboutabout:hover{
+    color: #E67195;
+}
+#ContactAbout:hover{
+    color: #E67195;
+}
+#ResumeAbout:hover{
+    color: #E67195;
+}
+
+#HomeContact{
+    width: 13rem; 
+    height: 2rem; 
+    left: 70rem; 
+    top: 2rem; 
+    position: absolute;
+    color: var(--secondary-color);
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+}
+#HomeContact:hover{
+    color: #E67195;
+}
+#AboutContact{
+    width: 13rem; 
+    height: 2rem;
+    left: 70rem;
+    top: 4.2rem; 
+    position: absolute;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+#AboutContact:hover{
+    color: #E67195;
+}
+#ContactContact {
+    width: 13rem;
+    height: 2rem; 
+    left: 70rem; 
+    top: 6.5rem; 
+    position: absolute; 
+    color: #DE3D6A; 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700;
+}
+#ContactContact:hover{
+    color: #E67195;
+}
+#ResumeContact {
+    width: 13rem; 
+    height: 2rem; 
+    left: 70rem; 
+    top: 8.7rem; 
+    position: absolute; 
+    color: var(--secondary-color); 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+}
+#ResumeContact:hover{
+    color: #E67195;
+}
+#headercontact{
+    width: 34rem; 
+    margin-top: 12rem; 
+    margin-left: 29rem;
+    color: #E67195; 
+    font-size: 70px; 
+    font-family: Helvetica Neue; 
+    font-weight: 700; 
+    line-height: normal;
+    letter-spacing: -0.225rem;
+}
+#HOMEHOME{
+    width: 12.8rem; 
+    height: 2.5rem;
+    left: 71rem; 
+    top: 4.5rem; 
+    position: absolute; 
+    color: #DE3D6A; 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+}
+#HOMEHOME:hover{
+    color: #E67195;
+}
+#HOMEresume{
+    width: 10rem; 
+    height: 2.5rem; 
+    left: 71rem; 
+    top: 2.1rem; 
+    position: absolute; 
+    color: var(--secondary-color); 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+}
+#HOMEresume:hover{
+    color: #E67195;
+}
+#HOMEabout{
+    width: 13.5rem; 
+    height: 2.5rem; 
+    left: 71rem; 
+    top: 7rem; 
+    position: absolute; 
+    color: var(--secondary-color); 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+}
+#HOMEabout:hover{
+    color: #E67195;
+}
+#HOMEcontact{
+    width: 12.8rem; 
+    height: 2.5rem; 
+    left: 71rem; 
+    top: 9.5rem; 
+    position: absolute; 
+    color: var(--secondary-color);
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+#HOMEcontact:hover{
+    color: #E67195;
+}
+#imghome{
+    width: 10rem; 
+    height: 11rem; 
+    left: 43rem;
+    top: 2rem; 
+    position: absolute
+}
+#textonleft{
+    width: 14.1rem; 
+    height: 17rem; 
+    left: 9rem; 
+    top: 2.1rem; 
+    position: absolute; 
+    text-align: right; 
+    color: var(--secondary-color); 
+    font-size: 2rem; 
+    font-family: Helvetica; 
+    font-weight: 700;
+    
+}
+#contentbox1{
+    width: 30rem; 
+    height: 5rem; 
+    color: var(--secondary-color); 
+    font-size: 70px; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+
+}
+#contentbox1:hover{
+    color: #DE3D6A;
+    transition: 0.3s;
+
+}
+.hover-container{
+    position: relative;
+    display: inline-block;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+
+    
+}
+.image-container {
+    width: 50rem;
+    position: relative;
+    top: 100%;
+    left: 0;
+    display: none;
+    transition: opacity;
+    transition-delay: 2s;
+    transition-timing-function: ease-in;
+    opacity: 0;
+  }
+  .hover-container:hover .image-container {
+    display: block;
+    opacity: 1; 
+    transition-timing-function: linear;
+    transition: opacity 0.3s ease;
+    
+  }
+  .hidden-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+#contentbox2{
+    width: 55rem; 
+    height: 5rem; 
+    color: var(--secondary-color); 
+    font-size: 70px; 
+    font-family: Helvetica; 
+    font-weight: 700;
+
+
+}
+#contentbox2:hover{
+    color: #DE3D6A;
+    transition: 0.3s;
+}
+#contentbox3{
+    width: 799px; 
+    height: 5rem; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 70px; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+
+}
+#contentbox3:hover{
+    color: #DE3D6A;
+    transition: 0.3s;
+}
+#contentbox4{
+    width: 30rem; 
+    height: 5rem; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 70px; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+
+}
+#contentbox4:hover{
+    color: #DE3D6A;
+    transition: 0.3s;
+}
+#contentbox5{
+    width: 799px; 
+    height: 133px; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 70px; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+
+}
+#contentbox5:hover{
+    color: #DE3D6A;
+    transition: 0.3s;
+}
+#contentboxmain{
+    margin-left: 20rem;
+    margin-top: 54rem;
+
+    margin-right: 20rem;
+    
+}
+#colortoggle{
+    width: 5rem; 
+    height: 5rem; 
+    background: var(--secondary-color);
+    cursor: pointer;
+    position: relative;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+p{
+color: var(--secondary-color);
+text-align: left;
+font-family: Helvetica;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.05625rem;
+}
+
+
+
+
+
+#instabox{
+    width: 30rem;
+    height: 5rem; 
+    left: 5.8rem; 
+    top: 30rem; 
+    position: absolute; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 3.1rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+    text-decoration: underline; 
+    
+}
+#behancebox{
+    width: 30rem; 
+    height: 5rem; 
+    left: 24.5rem; 
+    top: 30rem; 
+    position: absolute; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 3.1rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+    text-decoration: underline; 
+}
+#linkbox{
+    width: 30rem; 
+    height: 5rem; 
+    left: 42.8rem; 
+    top: 30rem; 
+    position: absolute; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 3.1rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+    text-decoration: underline;
+}
+#gmailbox{
+    width: 30rem;
+    height: 5rem; 
+    left: 58.7rem ;
+    top: 30rem; 
+    position: absolute; 
+    text-align: center; 
+    color: var(--secondary-color); 
+    font-size: 3.1rem; 
+    font-family: Helvetica; 
+    font-weight: 700; 
+    text-decoration: underline; 
+}
+
+
+
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.0px);
+}
+
+#text1,
+#text2 {
+    margin-top: 5rem;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    color:var(--secondary-color);
+
+    font-family: Helvetica ;
+    font-weight: bold;
+    font-size: 10rem;
+
+    text-align: center;
+
+    user-select: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+
+section{
+    width: 90rem;
+    height: 10rem;
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+     grid-column-gap: 1rem; 
+     grid-auto-flow: dense;
+}

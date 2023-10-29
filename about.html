@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Moneeey Portfolio</title>
+        <link rel="icon" href="img/LogoAwhite.png" type="image/x-icon">
+        <meta name="description" content="mani esmaili design portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="bodycolor">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div id="colortoggle"> </div>
+
+        <header> 
+
+
+            <nav> 
+                <section> 
+
+                    
+                        <a href="index.html"> 
+                        <div id="HomeAbout">  HOME</div>
+                        </a>
+                        <a href="#"> 
+                        <div id="aboutabout">ABOUT</div>
+                        </a>
+                        <a href="contact.html"> 
+                        <div id="ContactAbout">CONTACT</div>
+                        </a>
+                        <a href="https://www.behance.net/maniesmaili/resume" target="_blank">
+                        <div id="ResumeAbout">RESUME</div>
+                        </a>
+                 
+
+                     <a href="index.html"> 
+                         <img id="imgabout" src="img/LogoANew.png" />
+                     </a>
+
+                </section>
+            </nav>
+
+        </header>
+        <main> 
+
+            <div>
+                <div id="headerabout">About Moneeey</div>
+                <div id="textabout"> I am a highly motivated and detail-oriented designer with 3 years of experience in Design and Visual communication. With a passion for Illustration, 3D modeling, Graphic Design, and Interior design, I constantly seek new challenges and opportunities to grow and learn. I thrive in fast- paced environments and can work independently or as part of a team to achieve goals and meet deadlines. With creativity and obligation being my 2 main focuses, I am committed to delivering high-quality and creative pieces of work.</div>
+                
+            </div>
+              
+
+        </main>
+
+        <footer>
+
+            <div class="footerbox">
+                <div style=" margin-top: 42.5rem; " id="footertext">  Copyright © 2023 Moneeey. All Rights Reserved. </div>
+            </div>
+        
+        </footer>
+
+        <script>
+
+            var colortoggle = document.getElementById("colortoggle")
+            
+            colortoggle.onclick = function() {
+                document.body.classList.toggle("dark-theme");
+                if( document.body.classList.contains("dark-theme")) {
+                    imgabout.src = "img/LogoAWhite.png"
+                }else{
+                    imgabout.src = "img/LogoANew.png" 
+                }
+            }
+        </script>
+        
+    </body>
+</html>
