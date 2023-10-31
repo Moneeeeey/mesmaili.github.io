@@ -97,7 +97,7 @@ footer{
 #imgabout{
     width: 8.5rem;
     height: auto;
-    grid-column: 2 / 3;
+    grid-column-start: -2;
    
    
     
