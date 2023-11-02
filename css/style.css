@@ -67,7 +67,7 @@ footer{
    
 }
 #headerabout{
-    width: 29rem;
+    width: 51.5rem;
     height: 6rem;
     left: 18rem; 
     top: 20rem; 
@@ -79,7 +79,8 @@ footer{
     font-style: normal;
     letter-spacing: -0.28125rem;
     display: inline;
-    
+    text-align: right;
+
 }
 #textabout{
     width: 53vw;
