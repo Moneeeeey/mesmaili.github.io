@@ -47,7 +47,7 @@ footer{
     width: 90rem;
     height: 8rem;
     color: var(--secondary-color); 
-    font-size: 15px; 
+    font-size: 0.938rem; 
     font-family: Helvetica; 
     font-weight: 300;
 }
@@ -235,7 +235,7 @@ footer{
     margin-top: 2rem; 
     margin-left: 29rem;
     color: #E67195; 
-    font-size: 70px; 
+    font-size: 4.3rem; 
     font-family: Helvetica Neue; 
     font-weight: 700; 
     line-height: normal;
@@ -322,7 +322,7 @@ footer{
     width: 30rem; 
     height: 5rem; 
     color: var(--secondary-color); 
-    font-size: 70px; 
+    font-size: 4.3rem; 
     font-family: Helvetica; 
     font-weight: 700; 
 
@@ -373,7 +373,7 @@ footer{
     width: 55rem; 
     height: 5rem; 
     color: var(--secondary-color); 
-    font-size: 70px; 
+    font-size: 4.3rem; 
     font-family: Helvetica; 
     font-weight: 700;
 
@@ -384,11 +384,11 @@ footer{
     transition: 0.3s;
 }
 #contentbox3{
-    width: 799px; 
+    width: 50rem; 
     height: 5rem; 
     text-align: center; 
     color: var(--secondary-color); 
-    font-size: 70px; 
+    font-size: 4.3rem; 
     font-family: Helvetica; 
     font-weight: 700; 
 
@@ -402,7 +402,7 @@ footer{
     height: 5rem; 
     text-align: center; 
     color: var(--secondary-color); 
-    font-size: 70px; 
+    font-size: 4.3rem; 
     font-family: Helvetica; 
     font-weight: 700; 
 
@@ -412,11 +412,11 @@ footer{
     transition: 0.3s;
 }
 #contentbox5{
-    width: 799px; 
-    height: 133px; 
+    width: 50rem; 
+    height: 8.33rem; 
     text-align: center; 
     color: var(--secondary-color); 
-    font-size: 70px; 
+    font-size: 4.3rem; 
     font-family: Helvetica; 
     font-weight: 700; 
 
@@ -471,46 +471,60 @@ letter-spacing: -0.05625rem;
     text-decoration: underline; 
     
 }
+
+#instabox:hover {
+    color:#E67195;
+}
+
+
 #behancebox{
-    width: 30rem; 
+    width: 10rem; 
     height: 5rem; 
-    left: 24.5rem; 
+    left: 32.5rem; 
     top: 30rem; 
     position: absolute; 
-    text-align: center; 
+    text-align: left; 
     color: var(--secondary-color); 
     font-size: 3.1rem; 
     font-family: Helvetica; 
     font-weight: 700; 
     text-decoration: underline; 
 }
+#behancebox:hover {
+    color:#E67195;
+}
 #linkbox{
-    width: 30rem; 
+    width: 10rem; 
     height: 5rem; 
-    left: 42.8rem; 
+    left: 50rem; 
     top: 30rem; 
     position: absolute; 
-    text-align: center; 
+    text-align: left; 
     color: var(--secondary-color); 
     font-size: 3.1rem; 
     font-family: Helvetica; 
     font-weight: 700; 
     text-decoration: underline;
 }
+#linkbox:hover {
+    color:#E67195;
+}
 #gmailbox{
-    width: 30rem;
+    width: 10rem;
     height: 5rem; 
-    left: 58.7rem ;
+    left: 67.5rem ;
     top: 30rem; 
     position: absolute; 
-    text-align: center; 
+    text-align: left; 
     color: var(--secondary-color); 
     font-size: 3.1rem; 
     font-family: Helvetica; 
     font-weight: 700; 
     text-decoration: underline; 
 }
-
+#gmailbox:hover {
+    color:#E67195;
+}
 
 #container {
     position: absolute;
@@ -570,13 +584,4 @@ section{
     margin-top: 3rem;
     max-width: 90%;
     max-height: 90%;
-}
-
-.close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 30px;
-    cursor: pointer;
 }
